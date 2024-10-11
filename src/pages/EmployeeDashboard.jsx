@@ -1,7 +1,7 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 import SideBar from '../components/EmployeeDashboard/SideBar'
 import NavBar from '../components/dashboard/NavBar'
-import { Outlet } from 'react-router-dom'
 
 const EmployeeDashboard = () => {
   return (
