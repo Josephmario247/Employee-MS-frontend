@@ -2,7 +2,6 @@ import React from 'react'
 import SideBar from '../components/EmployeeDashboard/SideBar'
 import NavBar from '../components/dashboard/NavBar'
 import { Outlet } from 'react-router-dom'
-import SummaryCard from '../components/EmployeeDashboard/Summary'
 
 const EmployeeDashboard = () => {
   return (
@@ -16,4 +15,4 @@ const EmployeeDashboard = () => {
   )
 }
 
-export default EmployeeDashboard
+export default EmployeeDashboard;
