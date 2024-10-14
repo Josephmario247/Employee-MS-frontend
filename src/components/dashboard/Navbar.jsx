@@ -1,7 +1,7 @@
 import React from 'react'
 import { useAuth } from '../../context/AuthContext'
 
-const NavBar = () => {
+const Navbar = () => {
     const {user, logout} = useAuth()
   return (
     <div className='flex items-center text-white justify-between h-12 bg-teal-600 px-5'>
@@ -11,4 +11,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar;
+export default Navbar;
