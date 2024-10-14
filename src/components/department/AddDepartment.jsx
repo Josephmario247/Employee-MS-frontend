@@ -19,7 +19,7 @@ const AddDepartment = () => {
         e.preventDefault();
         // console.log(department)
         try {
-            const response = await axios.post("http://localhost:5000/api/department/add", department, {
+            const response = await axios.post("https://employee-ms-backend.vercel.app/department/add", department, {
                 headers:{
                     "Authorization": `Bearer ${localStorage.getItem('token')}`
                 }

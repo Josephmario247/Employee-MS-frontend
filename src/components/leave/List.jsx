@@ -10,7 +10,7 @@ const List = () => {
     const { user } = useAuth()
     const fetchLeaves = async () => {
         try {
-            const response = await axios.get(`http://localhost:5000/api/leave/${id}/${user.role}`, {
+            const response = await axios.get(`https://employee-ms-backend.vercel.app/api/leave/${id}/${user.role}`, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`
                 }
